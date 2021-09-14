@@ -1,7 +1,7 @@
 from functools import reduce
 
 
-class CustomBuiltinFuntions:
+class CustomBuiltinFunctions:
     '''
     Class with custom definitions of built-in functions.
     '''
