@@ -2,10 +2,12 @@ upstream claim_portal_app_server {
   server unix:/home/i3user/app/claim_portal_master/claim_portal/.venv/run/gunicorn.sock fail_timeout=0;
 }
 
+
 server {
 
     listen  80;
     server_name 216.48.181.36;
+    # Multiple server names can be configured on port 80
     #return 301 http://$server_name:80$request_uri;
 
     # ------------------------------------------------------
